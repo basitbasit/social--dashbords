@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social dashbord</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e0308f506.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="grid-container">
+
+        <header class="header">
+            
+            <div class="menu-icons" >
+                <i onclick="openSidebar()" class="fa-solid fa-list"></i>
+                
+            </div>
+                <div class="header-left">
+                    <i onclick="closesidebar()"class="fa-solid fa-xmark" id="closeBtn" ></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                
+                    
+                </div>
+                <div>
+                
+                <div class="header-right">
+                    <img src="moon.png" id="icon">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-user"></i>
+                    
+                </div>
+        </header>
+
+        <aside id="slidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+
+                 <i onclick="openSidebar()" class="fa-solid fa-list" id="menuBar"></i>  
+                    <i class="fa-regular fa-face-smile-wink"></i>LOGO
+                </div>
+                
+            </div>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-table-columns"></i>dashbord
+                    </a>
+                   
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-signal"></i>leaderbord
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-bug"></i>forum
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>supports
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>messeges
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>setting
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main  class="main-container" >
+            <div class="main-title">
+                <h2>Dashbord</h2>
+                
+            </div>
+            <div class="main-cards">
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>likes</h2>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <h1>4,021</h1>
+                   
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>subcribes</h2>
+                        <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h1>8,021</h1>
+                   
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>follower</h2>
+                        <i class="fa-regular fa-user"></i>
+                        </div>
+                        <h1>79,021</h1>
+                   
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>messeges</h2>
+                        <i class="fa-solid fa-messages"></i>
+                        </div>
+                        <h1>6,021</h1>
+                   
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="products-card">
+                    <h2 class="products-description">LATEST-NEWS</h2>
+            <p class="text-secondary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio perferendis, consectetur repellendus quo error repellat neque. Ducimus
+            </p>
+            <button type="button" class="products-button">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+                </div>
+                <div class="social-media">
+                    <div class="product">
+                        <div>
+                            <div class="product-icon-background-red">
+                                <i class="fa-brands fa-facebook"></i></div>
+                                <h1 class="text-red">+274</h1>
+                                <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, distinctio.</p>
+                            </div>
+                            <div>
+                                <div class="product-icon-background-green">
+                                    <i class="fa-brands fa-twitter"></i></div>
+                                    <h1 class="text-red">+2694</h1>
+                                    <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, distinctio.</p>
+                                </div>
+                                <div>
+                                    <div class="product-icon-background-orange">
+                                        <i class="fa-brands fa-instagram"></i></div>
+                                        <h1 class="text-red">+2894</h1>
+                                        <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, distinctio.</p>
+                                    </div>
+                                    <div>
+                                        <div class="product-icon-background-black">
+                                            <i class="fa-brands fa-linkedin"></i></div>
+                                            <h1 class="text-red">+5874</h1>
+                                            <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, distinctio.</p>
+                                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+    </div>
+   
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
